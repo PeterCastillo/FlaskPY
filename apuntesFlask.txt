@@ -1,0 +1,5 @@
+flask db init => Inizializar migraciones de un proyecto(tener instalado Flask-Migrate)
+flask db migrate -m "Initial Migration" => Crea una migraciones
+flask db upgrade  => Ejecutamos la migracion creada
+flask db downgrade --tag ID_MIGRACION => Elimina la migracion
+flask db history => Muestra historial de migraciones 
